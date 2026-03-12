@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://simplyvastushastra.com/sitemap.xml
+
+# Block access to private/system paths
+Disallow: /api/
+Disallow: /_/

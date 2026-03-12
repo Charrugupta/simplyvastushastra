@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Blog Admin | SimplyVastuShastra</title>
+    <style>
+      body { margin: 0; font-family: sans-serif; }
+      #cms-loading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: #1a0e0a;
+        color: #C9A84C;
+        gap: 16px;
+      }
+      #cms-loading h1 { font-size: 1.5rem; margin: 0; }
+      #cms-loading p { color: #9a7a50; margin: 0; font-size: 0.875rem; }
+    </style>
+  </head>
+  <body>
+    <div id="cms-loading">
+      <div style="font-size:3rem">&#x0950;</div>
+      <h1>SimplyVastuShastra Blog Admin</h1>
+      <p>Loading CMS...</p>
+    </div>
+    <script>
+      // Remove loading screen once CMS boots
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          const loading = document.getElementById('cms-loading');
+          if (loading) loading.style.display = 'none';
+        }, 1000);
+      });
+    </script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  </body>
+</html>

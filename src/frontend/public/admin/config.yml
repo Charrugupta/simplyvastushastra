@@ -1,0 +1,138 @@
+# ============================================================
+# SimplyVastuShastra — Decap CMS Configuration
+# ============================================================
+#
+# LOCAL DEVELOPMENT:
+#   1. Install the local server once:
+#      npm install -g decap-server
+#   2. In terminal 1 — start the proxy:
+#      cd src/frontend && npx decap-server
+#   3. In terminal 2 — start Vite dev server:
+#      cd src/frontend && pnpm run dev
+#   4. Open browser: http://localhost:5173/admin
+#   5. Click "Login" (no password needed locally)
+#
+# PRODUCTION (Hostinger):
+#   To use the admin panel on your live website, you need a
+#   GitHub repository + GitHub OAuth App. See instructions:
+#   https://decapcms.org/docs/github-backend/
+#
+#   After setting up GitHub OAuth, change the backend below to:
+#   backend:
+#     name: github
+#     repo: YOUR_USERNAME/YOUR_REPO
+#     branch: main
+# ============================================================
+
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main
+
+# Where uploaded images will be stored (relative to repo root)
+media_folder: "src/frontend/public/assets/blog-images"
+
+# URL path where images are served from
+public_folder: "/assets/blog-images"
+
+# ============================================================
+# Blog Posts Collection
+# ============================================================
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    label_singular: "Blog Post"
+    folder: "src/frontend/src/content/posts"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    format: "frontmatter"
+    extension: "md"
+    summary: "{{title}} — {{date}}"
+    sortable_fields: ["date", "title"]
+    view_filters:
+      - label: "Published"
+        field: published
+        pattern: true
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "Full blog title shown on the page"
+
+      - label: "URL Slug"
+        name: "slug"
+        widget: "string"
+        hint: "URL-friendly name. Example: vastu-tips-for-bedroom. Use only lowercase letters, numbers, and hyphens."
+
+      - label: "Published"
+        name: "published"
+        widget: "boolean"
+        default: true
+        hint: "Uncheck to save as draft (won't appear on the website)"
+
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        format: "YYYY-MM-DD"
+        date_format: "DD/MM/YYYY"
+        time_format: false
+        hint: "Date shown on the blog post"
+
+      - label: "Author Name"
+        name: "author"
+        widget: "string"
+        default: "Charru Gupta"
+
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - "Vastu Tips"
+          - "Home Vastu"
+          - "Office Vastu"
+          - "Industrial Vastu"
+          - "Vastu Remedies"
+          - "City Guides"
+          - "Vastu Science"
+          - "Courses"
+
+      - label: "Short Excerpt"
+        name: "excerpt"
+        widget: "text"
+        hint: "1-2 sentences shown on the blog card. Keep it under 160 characters."
+
+      - label: "Cover Image"
+        name: "coverImage"
+        widget: "image"
+        hint: "Upload a 800x480 image for the blog card and hero. JPG or PNG."
+
+      - label: "Meta Title (SEO)"
+        name: "metaTitle"
+        widget: "string"
+        hint: "SEO title shown in Google search results. Keep under 60 characters."
+        required: false
+
+      - label: "Meta Description (SEO)"
+        name: "metaDescription"
+        widget: "text"
+        hint: "SEO description shown in Google. Keep under 155 characters."
+        required: false
+
+      - label: "Canonical URL"
+        name: "canonicalUrl"
+        widget: "string"
+        hint: "Full URL. Example: https://simplyvastushastra.com/blogs/your-slug"
+        required: false
+
+      - label: "Open Graph Image (Social Share)"
+        name: "ogImage"
+        widget: "image"
+        hint: "Image shown when shared on WhatsApp, Facebook etc. Same as cover image is fine."
+        required: false
+
+      - label: "Blog Content"
+        name: "body"
+        widget: "markdown"
+        hint: "Write your full blog article here. You can use headings, bold text, lists, and images."
