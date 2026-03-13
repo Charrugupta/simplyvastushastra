@@ -52,6 +52,15 @@ const cardVariants = {
   },
 };
 
+function goToContact() {
+  const el = document.querySelector("#contact");
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth" });
+  } else {
+    window.location.href = "/contact";
+  }
+}
+
 export default function Services() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-80px" });
@@ -217,15 +226,12 @@ export default function Services() {
                   {/* CTA */}
                   <button
                     type="button"
-                    onClick={() =>
-                      document
-                        .querySelector("#contact")
-                        ?.scrollIntoView({ behavior: "smooth" })
-                    }
+                    onClick={goToContact}
                     className="btn-gold-outline px-5 py-2.5 rounded-full text-sm font-semibold w-full text-center mt-auto"
                     aria-label={`Book ${service.title} consultation`}
+                    data-ocid={`services.item.${i + 1}`}
                   >
-                    Book Now →
+                    Book Now &rarr;
                   </button>
                 </div>
               </motion.article>
@@ -318,7 +324,7 @@ export default function Services() {
                     }}
                     aria-hidden="true"
                   >
-                    →
+                    &rarr;
                   </div>
                 )}
               </div>

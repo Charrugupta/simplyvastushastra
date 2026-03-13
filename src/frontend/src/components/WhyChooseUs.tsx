@@ -47,6 +47,15 @@ const itemVariants = {
   },
 };
 
+function goToContact() {
+  const el = document.querySelector("#contact");
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth" });
+  } else {
+    window.location.href = "/contact";
+  }
+}
+
 export default function WhyChooseUs() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-80px" });
@@ -103,7 +112,7 @@ export default function WhyChooseUs() {
           WebkitTextStroke: "1px rgba(201,168,76,0.04)",
         }}
       >
-        ॐ
+        &#2384;
       </div>
 
       {/* Radial glow at center */}
@@ -156,7 +165,9 @@ export default function WhyChooseUs() {
               }}
               aria-hidden="true"
             />
-            <span style={{ color: "#C9A84C", fontSize: "0.75rem" }}>✦</span>
+            <span style={{ color: "#C9A84C", fontSize: "0.75rem" }}>
+              &#10022;
+            </span>
             <div
               className="h-[1px] w-16"
               style={{
@@ -229,7 +240,7 @@ export default function WhyChooseUs() {
               className="mt-4 text-sm font-bold tracking-wide"
               style={{ color: "#C9A84C" }}
             >
-              — Charru Gupta, Vastu Expert & Founder
+              — Charru Gupta, Vastu Expert &amp; Founder
             </p>
           </div>
         </motion.div>
@@ -307,7 +318,7 @@ export default function WhyChooseUs() {
                     color: "#C9A84C",
                   }}
                 >
-                  ✦ {reason.highlight}
+                  &#10022; {reason.highlight}
                 </span>
               </div>
 
@@ -337,7 +348,7 @@ export default function WhyChooseUs() {
               style={{ color: "#C9A84C", opacity: 0.8 }}
               aria-hidden="true"
             >
-              ॐ
+              &#2384;
             </div>
             <p
               className="font-serif font-bold text-xl mb-2"
@@ -353,12 +364,9 @@ export default function WhyChooseUs() {
             </p>
             <button
               type="button"
-              onClick={() =>
-                document
-                  .querySelector("#contact")
-                  ?.scrollIntoView({ behavior: "smooth" })
-              }
+              onClick={goToContact}
               className="btn-gold-magnetic px-8 py-3.5 rounded-full text-sm font-bold shadow-[0_4px_20px_rgba(201,168,76,0.3)] hover:shadow-[0_6px_28px_rgba(201,168,76,0.5)] hover:-translate-y-0.5 transition-all duration-300"
+              data-ocid="why.primary_button"
             >
               Get Started Today
             </button>
@@ -392,14 +400,11 @@ export default function WhyChooseUs() {
             </div>
             <button
               type="button"
-              onClick={() =>
-                document
-                  .querySelector("#contact")
-                  ?.scrollIntoView({ behavior: "smooth" })
-              }
+              onClick={goToContact}
               className="flex-shrink-0 btn-gold-magnetic px-9 py-4 rounded-full text-[14px] font-bold shadow-[0_4px_20px_rgba(201,168,76,0.3)] hover:shadow-[0_6px_28px_rgba(201,168,76,0.5)] hover:-translate-y-0.5 transition-all duration-300 whitespace-nowrap min-h-[52px]"
+              data-ocid="why.secondary_button"
             >
-              Start Your Vastu Journey →
+              Start Your Vastu Journey &rarr;
             </button>
           </div>
         </motion.div>

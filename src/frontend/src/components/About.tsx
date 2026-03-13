@@ -14,6 +14,15 @@ const stats = [
   { value: "3000+", label: "Students Trained" },
 ];
 
+function goToContact() {
+  const el = document.querySelector("#contact");
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth" });
+  } else {
+    window.location.href = "/contact";
+  }
+}
+
 export default function About() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
@@ -249,14 +258,11 @@ export default function About() {
 
             <button
               type="button"
-              onClick={() =>
-                document
-                  .querySelector("#contact")
-                  ?.scrollIntoView({ behavior: "smooth" })
-              }
+              onClick={goToContact}
               className="inline-flex btn-gold-magnetic px-7 py-3.5 rounded-full text-sm font-semibold shadow-sm hover:shadow-gold transition-all duration-300"
+              data-ocid="about.primary_button"
             >
-              Book a Consultation →
+              Book a Consultation &rarr;
             </button>
           </motion.div>
         </div>
