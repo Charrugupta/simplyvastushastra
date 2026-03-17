@@ -85,7 +85,13 @@ export default function Hero() {
 
   const handleScrollTo = (id: string) => {
     const el = document.querySelector(id);
-    if (el) el.scrollIntoView({ behavior: "smooth" });
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    } else if (id === "#contact") {
+      window.location.href = "/contact";
+    } else if (id === "#courses") {
+      window.location.href = "/courses";
+    }
   };
 
   return (

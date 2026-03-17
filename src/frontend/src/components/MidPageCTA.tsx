@@ -16,7 +16,12 @@ export default function MidPageCTA() {
   const isInView = useInView(ref, { once: true, margin: "-60px" });
 
   const handleScrollToContact = () => {
-    document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
+    const el = document.querySelector("#contact");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.location.href = "/contact";
+    }
   };
 
   return (

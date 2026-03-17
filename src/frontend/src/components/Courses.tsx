@@ -251,11 +251,14 @@ export default function Courses() {
 
                   <button
                     type="button"
-                    onClick={() =>
-                      document
-                        .querySelector("#contact")
-                        ?.scrollIntoView({ behavior: "smooth" })
-                    }
+                    onClick={() => {
+                      const el = document.querySelector("#contact");
+                      if (el) {
+                        el.scrollIntoView({ behavior: "smooth" });
+                      } else {
+                        window.location.href = "/contact";
+                      }
+                    }}
                     className={`py-3.5 rounded-full text-sm font-bold w-full transition-all duration-300 min-h-[48px] ${
                       isFeatured
                         ? "btn-gold-shimmer shadow-md hover:shadow-gold hover:-translate-y-0.5"
@@ -289,11 +292,14 @@ export default function Courses() {
           </h3>
           <button
             type="button"
-            onClick={() =>
-              document
-                .querySelector("#contact")
-                ?.scrollIntoView({ behavior: "smooth" })
-            }
+            onClick={() => {
+              const el = document.querySelector("#contact");
+              if (el) {
+                el.scrollIntoView({ behavior: "smooth" });
+              } else {
+                window.location.href = "/contact";
+              }
+            }}
             className="btn-gold-shimmer px-10 py-4 rounded-full text-base font-bold shadow-md hover:shadow-gold transition-all duration-300"
           >
             Enroll Now — Limited Seats

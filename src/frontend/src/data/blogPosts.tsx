@@ -22,7 +22,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Discover the most effective Vastu principles that can bring harmony, prosperity, and happiness to your home. Simple, practical, and powerful.",
     readTime: "5 min read",
-    date: "2024-01-15",
+    date: "2026-01-15",
     author: "Charru Gupta",
     metaDescription:
       "Discover the top 10 Vastu tips by expert Charru Gupta for a happy, prosperous home. Practical Vastu Shastra remedies for harmony, health, and wealth.",
@@ -140,7 +140,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Distance is no barrier to Vastu. Learn how expert online consultation delivers the same powerful results as in-person visits.",
     readTime: "4 min read",
-    date: "2024-02-01",
+    date: "2026-02-01",
     author: "Charru Gupta",
     metaDescription:
       "Online Vastu consultation with Charru Gupta — get expert Vastu Shastra guidance from anywhere in India or abroad. Same results, complete convenience.",
@@ -234,7 +234,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Your workspace energy directly impacts your business performance. Learn key Vastu principles for commercial spaces and watch your business thrive.",
     readTime: "6 min read",
-    date: "2024-02-20",
+    date: "2026-02-20",
     author: "Charru Gupta",
     metaDescription:
       "Vastu for business growth — expert tips by Charru Gupta on office Vastu, commercial Vastu, and industrial Vastu to attract success, clients, and financial abundance.",
@@ -339,7 +339,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "With 7+ years of experience and 1000+ consultations, discover what makes SimplyVastuShastra unique in India's Vastu landscape.",
     readTime: "4 min read",
-    date: "2024-03-10",
+    date: "2026-03-10",
     author: "Charru Gupta",
     metaDescription:
       "Discover why Charru Gupta is considered the best Vastu expert in India — 7+ years of experience, 1000+ successful consultations, certified practitioner with a no-demolition approach.",
@@ -446,7 +446,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "A comprehensive overview of professional Vastu consultation services and how to choose the right expert for your home or business.",
     readTime: "7 min read",
-    date: "2024-04-01",
+    date: "2026-04-01",
     author: "Charru Gupta",
     metaDescription:
       "Complete guide to Vastu consultation services in India — what to expect, types of Vastu consultants, costs, and how to choose the right Vastu expert for your home or business.",
@@ -561,7 +561,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Your bedroom's Vastu directly impacts the quality of your sleep and relationship harmony. Discover the key bedroom Vastu tips for restful nights and deeper love.",
     readTime: "5 min read",
-    date: "2024-04-20",
+    date: "2026-04-20",
     author: "Charru Gupta",
     metaDescription:
       "Vastu tips for bedroom by Charru Gupta — bed direction, colours, mirrors, plants, and master bedroom placement for restful sleep and relationship harmony.",
@@ -670,7 +670,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "A north-facing house is considered highly auspicious in Vastu Shastra. Learn how to maximise the benefits of your north-facing plot with these expert tips.",
     readTime: "6 min read",
-    date: "2024-05-01",
+    date: "2026-05-01",
     author: "Charru Gupta",
     metaDescription:
       "Complete Vastu guide for north-facing houses by Charru Gupta — main door placement, kitchen, master bedroom, pooja room, and garden tips for maximum prosperity.",
@@ -783,7 +783,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Activate the wealth zones of your home and office with powerful Vastu Shastra remedies. Attract financial abundance, clear money blocks, and invite prosperity.",
     readTime: "5 min read",
-    date: "2024-05-15",
+    date: "2026-05-15",
     author: "Charru Gupta",
     metaDescription:
       "Vastu tips for money and wealth by Charru Gupta — activate the north zone, cash locker direction, Kubera yantra, money plant placement, and financial abundance remedies.",
@@ -896,7 +896,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Most Vastu defects can be corrected without demolition. Discover powerful, practical remedies using colours, elements, symbols, and objects to restore energy balance.",
     readTime: "6 min read",
-    date: "2024-05-20",
+    date: "2026-05-20",
     author: "Charru Gupta",
     metaDescription:
       "Fix Vastu doshas without demolition — practical Vastu remedies by Charru Gupta using colours, crystals, mirrors, yantras, salt, wind chimes, and element balancing.",
@@ -1018,7 +1018,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt:
       "Starting a new chapter together? Vastu Shastra can help newly married couples create an energetically harmonious home that supports love, togetherness, and a beautiful future.",
     readTime: "4 min read",
-    date: "2024-06-01",
+    date: "2026-06-01",
     author: "Charru Gupta",
     metaDescription:
       "Vastu tips for newly married couples by Charru Gupta — bedroom direction, colours for love, relationship zone activation, Tulsi plant, and decluttering for a harmonious new home.",
