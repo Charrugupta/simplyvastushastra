@@ -34,8 +34,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu for happy home",
       "charru gupta vastu",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-top-10-vastu-tips.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -152,8 +151,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu consultation from home",
       "charru gupta online vastu",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-online-vastu-consultation.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -247,8 +245,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "business vastu shastra",
       "vastu for success",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-for-business-growth.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -352,8 +349,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu shastra expert india",
       "simplyvastushastra",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-best-vastu-expert-india.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -459,8 +455,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "residential vastu",
       "commercial vastu india",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-consultant-guide.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -576,8 +571,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "master bedroom vastu",
       "vastu for couples",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-for-bedroom.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -685,8 +679,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "kubera vastu",
       "vastu for north entrance",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-for-north-facing-house.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -799,8 +792,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "kubera vastu tips",
       "vastu for cash flow",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-for-money-and-wealth.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -912,8 +904,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu remedies at home",
       "vastu pyramid",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-remedies-without-demolition.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1034,8 +1025,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "bedroom vastu for couples",
       "vastu for new home",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-for-newly-married-couples.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1162,8 +1152,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "noida vastu consultant",
       "vastu consultation noida",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-consultant-noida.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1250,8 +1239,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "delhi ncr vastu shastra",
       "top vastu consultant delhi",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-best-vastu-consultant-delhi-ncr.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1327,8 +1315,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu consultant gurugram",
       "commercial vastu gurgaon",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-consultant-gurgaon.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1396,8 +1383,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu consultant vasundhara",
       "vastu ghaziabad",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-consultant-ghaziabad.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1465,8 +1451,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu yamuna expressway",
       "vastu noida extension",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-consultant-greater-noida.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1531,8 +1516,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "business vastu delhi ncr",
       "vastu for corporate office",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1497366858526-0766e7d9c1f7?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-office-vastu-delhi-ncr.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1600,8 +1584,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu shastra lucknow",
       "vastu expert up",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-tips-lucknow-up.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1671,8 +1654,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu for manufacturing unit",
       "factory vastu tips",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-industrial-vastu-uttar-pradesh.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1744,8 +1726,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu for 2bhk flat noida",
       "vastu consultation noida flat",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-for-flat-in-noida.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1811,8 +1792,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu for flat delhi",
       "vastu consultant delhi",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1582063289852-62e3ba2747f8?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-for-new-home-delhi.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1888,8 +1868,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu to attract customers",
       "shop vastu delhi",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-for-shop-in-delhi-ncr.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -1963,8 +1942,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu consultation video call",
       "best online vastu consultant",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-consultation-online-india.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -2033,8 +2011,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "south direction vastu",
       "vastu for south facing house delhi",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-for-south-facing-house-noida.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -2102,7 +2079,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu upay for marriage",
     ],
     coverImage:
-      "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=480&fit=crop&q=80",
+      "/assets/generated/blog-vastu-remedies-for-delayed-marriage.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -2181,8 +2158,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu consultation dwarka sector",
       "best vastu consultant dwarka",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-consultant-dwarka-delhi.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -2284,7 +2260,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu consultant dwarka rohini pitampura",
     ],
     coverImage:
-      "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=800&h=480&fit=crop&q=80",
+      "/assets/generated/blog-vastu-consultant-rohini-pitampura-delhi.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -2352,8 +2328,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "industrial vastu faridabad",
       "residential vastu faridabad",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-consultant-faridabad.jpg",
     content: (
       <div className="blog-content">
         <p>
@@ -2424,8 +2399,7 @@ export const BLOG_POSTS: BlogPost[] = [
       "vastu for land purchase",
       "plot vastu check delhi",
     ],
-    coverImage:
-      "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=800&h=480&fit=crop&q=80",
+    coverImage: "/assets/generated/blog-vastu-for-plot-purchase-delhi-ncr.jpg",
     content: (
       <div className="blog-content">
         <p>

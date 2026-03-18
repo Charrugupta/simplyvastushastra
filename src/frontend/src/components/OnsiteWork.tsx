@@ -4,48 +4,42 @@ import SectionHeader from "./SectionHeader";
 
 const onsiteStories = [
   {
-    image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&q=80",
+    image: "/assets/generated/onsite-work-1.jpg",
     title: "On-Site Assessment, Delhi NCR",
     story:
       "During a residential Vastu assessment in Delhi NCR, Charru meticulously documented every zone of the under-construction home — marking directions, noting structural alignments, and discussing with the owner how room placements could be optimised before walls go up. 'The best time to apply Vastu is before the cement sets,' she explains.",
     tag: "Residential Consultation",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&h=600&fit=crop&q=80",
+    image: "/assets/generated/onsite-work-2.jpg",
     title: "Commercial Space Evaluation, Noida",
     story:
       "A large glass-facade commercial building in Noida — Charru assessing the entrance orientation and natural light flow before the interiors were fitted. Getting the directional energy right at this stage means the business that occupies the space starts its journey with an energetic advantage from day one.",
     tag: "Commercial Vastu",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&h=600&fit=crop&q=80",
+    image: "/assets/generated/onsite-work-3.jpg",
     title: "Industrial Unit Survey, UP",
     story:
       "An industrial unit in Uttar Pradesh — Charru surveying the production floor layout, identifying the fire and water element zones, and recommending optimal placement for machinery and raw material storage. Proper industrial Vastu reduces workforce conflict, minimises accidents, and improves production efficiency.",
     tag: "Industrial Vastu",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop&q=80",
+    image: "/assets/generated/onsite-work-4.jpg",
     title: "Factory Energy Mapping, Greater Noida",
     story:
       "Inside a large manufacturing facility near Greater Noida, Charru maps the energy flow across different production zones. The north-east corner — the divine zone — needed to be kept free of heavy machinery. Simple repositioning of equipment and adding the right elements transformed the unit's environment and team morale within weeks.",
     tag: "Industrial Vastu",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&h=600&fit=crop&q=80",
+    image: "/assets/generated/onsite-work-5.jpg",
     title: "Under-Construction Home, Delhi",
     story:
       "A staircase assessment in an under-construction home in Delhi. Staircase placement and direction have a profound impact on energy flow between floors. Here, Charru identified a south-west staircase — ideal for grounding energy — and recommended specific remedies for the landing zone to keep the family's stability energy strong.",
     tag: "Residential Consultation",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=800&h=600&fit=crop&q=80",
+    image: "/assets/generated/onsite-work-6.jpg",
     title: "New Construction Vastu Audit, Delhi NCR",
     story:
       "A ceiling-to-floor structural audit during the construction phase of a residential property in Delhi NCR. Charru's pre-construction consultations are among the most valuable — identifying zone corrections, door placements, and beam positions before they become permanent. This family saved ₹3 lakhs in potential future renovation costs.",

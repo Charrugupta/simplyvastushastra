@@ -406,7 +406,7 @@ function BlogCard({ post }: { post: BlogPost }) {
           loading="lazy"
           onError={(e) => {
             (e.target as HTMLImageElement).src =
-              "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=480&fit=crop&q=80";
+              "/assets/generated/blog-fallback.jpg";
           }}
         />
         <div
