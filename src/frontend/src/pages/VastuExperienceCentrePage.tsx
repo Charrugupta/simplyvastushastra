@@ -991,7 +991,7 @@ function ParallaxHero() {
         aria-hidden="true"
       >
         <img
-          src="/assets/generated/vastu-experience-hero.dim_1600x900.jpg"
+          src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=1600&h=900&fit=crop&q=80"
           alt=""
           className="w-full h-full object-cover"
           style={{ opacity: 0.28 }}
